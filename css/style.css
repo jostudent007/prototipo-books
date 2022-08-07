@@ -1,0 +1,90 @@
+:root {
+    --primary: #F5B947;
+    --primary-light: #FFC963;
+    --neutral-light: #F5F5F5;
+    --secondary: #0F53A8;
+    --primary-dark: #A87920;
+    --neutral-dark: #333344;
+    --secondary-light: #4793F5;
+}
+
+header {
+    background-color: var(--primary);
+}
+
+body {
+    background-color: var(--primary-light);
+}
+
+header form {
+    background-color: var(--primary-dark);
+    border-radius: 8px;
+    padding: 10px;
+    margin: 16px;
+}
+
+body div.card div.row-6 {
+    font-family: 'Material Icons';
+    font-style: normal;
+}
+.popup{
+    position: relative;
+    top: 5px;
+}
+.popup1{
+    position: relative;
+    bottom: 5px;
+}
+.card p, h5{
+    color: var(--neutral-light);
+}
+header form a {
+    text-decoration: underline;
+    color: var(--secondary);
+}
+.popup:link{
+    text-decoration: none;
+}
+.popup1:link{
+    text-decoration: none;
+}
+figure img{
+    color: var(--secondary);
+}
+figure{
+    display: flex;
+    position: relative;
+    bottom: 24px;
+    left: 26px;
+    color: var(--secondary);
+}
+figure p{
+    display: flex;
+    position: relative;
+    right: 24px;
+    top: 8px;
+}
+div.card {
+    background-color: var(--secondary-light);
+    margin: 8px;
+}
+
+body form {
+    margin: 10px;
+}
+
+div.card div {
+    font-family: cursive;
+    border-radius: 8px;
+}
+
+h1 {
+    font-family: 'Jacques Francois Shadow';
+    font-style: normal;
+    display: flex;
+    align-items: center;
+    color: var(--neutral-dark);
+}
+.fonte{
+    display: flex;
+}
